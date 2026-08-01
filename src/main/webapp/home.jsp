@@ -2,7 +2,9 @@
 
 <%
     if (session.getAttribute("username")!= null){
-        response.sendRedirect("login.jsp");
+        //response.sendRedirect("login.jsp");
+        request.setAttribute("message","Please login first");
+        request.getRequestDispatcher("login.jsp").forward(request,response);
     }
 
 %>
