@@ -11,8 +11,6 @@
     <title>J2EE Security | Admin Home</title>
 </head>
 <body>
-
-<h1>Welcome to Admin Home</h1>
-
+<h1>J2EE Security Admin Home</h1>
 </body>
 </html>
