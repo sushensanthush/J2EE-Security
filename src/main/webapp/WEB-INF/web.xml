@@ -9,5 +9,8 @@
             <web-resource-name>Authenticated Area</web-resource-name>
             <url-pattern>/user/*</url-pattern>
         </web-resource-collection>
+        <auth-constraint>
+            <role-name>X</role-name>
+        </auth-constraint>
     </security-constraint>
 </web-app>
