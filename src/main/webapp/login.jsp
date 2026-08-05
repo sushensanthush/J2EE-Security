@@ -6,11 +6,28 @@
 <body>
 <h1>J2EE Security Login</h1>
 
-<p style="color: red">
-    ${requestScope.message}
-</p>
+<%--    <p style="color:red">--%>
+<%--        ${requestScope.message}--%>
+<%--    </p>--%>
+<form method="POST" action="j_security_check">
+    <table>
+        <tr>
+            <th>Username:</th>
+            <td><input type="text" name="j_username" /></td>
+        </tr>
+        <tr>
+            <th>Password:</th>
+            <td><input type="password" name="j_password" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Login" /></td>
+        </tr>
+    </table>
+</form>
 
-<form method="POST" action="login">
+<h1>Custom Form Auth</h1>
+<form method="POST" action="${pageContext.request.contextPath}/custom_auth">
     <table>
         <tr>
             <th>Username:</th>
@@ -22,7 +39,7 @@
         </tr>
         <tr>
             <td></td>
-            <td><input type="submit" value="login"></td>
+            <td><input type="submit" value="Login" /></td>
         </tr>
     </table>
 </form>

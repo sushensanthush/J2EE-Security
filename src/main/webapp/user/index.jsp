@@ -11,7 +11,7 @@
     <title>User</title>
 </head>
 <body>
-<h1>User</h1>
+<h1>User Index</h1>
 
 </body>
 </html>
