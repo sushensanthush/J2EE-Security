@@ -17,7 +17,6 @@ public class CustomFormLogin extends HttpServlet {
         // DB auth check
         // Check user type
 
-
        // request.getSession().setAttribute("username", username);
 
         request.login(username, password);
