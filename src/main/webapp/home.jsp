@@ -1,5 +1,3 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
 <%--<%--%>
 <%--if (session.getAttribute("username") == null){--%>
 <%--//    response.sendRedirect("login.jsp");--%>
@@ -8,6 +6,7 @@
 <%--}--%>
 <%--%>--%>
 
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>J2EE Security | Home</title>
@@ -16,3 +15,4 @@
 <h1>J2EE Security Home</h1>
 </body>
 </html>
+
